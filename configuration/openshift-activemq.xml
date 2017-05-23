@@ -162,6 +162,7 @@
             <virtualSelectorCacheBrokerPlugin persistFile="${activemq.data}/selectorCache" persistInterval="900" /-->
 
             <jaasAuthenticationPlugin configuration="activemq" />
+            <runtimeConfigurationPlugin checkPeriod="1000" />
         </plugins>
 
         <!--
